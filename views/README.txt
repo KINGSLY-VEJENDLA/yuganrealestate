@@ -1,0 +1,26 @@
+# Yugan Real Estate Website
+
+Static responsive website recreated from the client-provided reference screens.
+
+## Pages
+- index.html
+- about.html
+- services.html
+- property-mediation.html
+- legal-due-diligence.html
+- rera.html
+- registration-assistance.html
+- contact.html
+
+## Run
+Open `views/index.html` directly in a browser, or use VS Code Live Server.
+
+## Customize
+- Phone: search for `+91 98765 43210`
+- Email: search for `info@yuganrealestate.com`
+- Location: search for `Amaravati, Andhra Pradesh, India`
+- Logo/images: `images/`
+- Main styling: `css/style.css`
+- Mobile menu/contact form behavior: `js/main.js`
+
+The contact form is frontend-only in this package. Connect it to your preferred backend/email service before production.
