@@ -8,11 +8,12 @@
 </script>
 <link rel="stylesheet" href="../css/style.css">
 </head><body>
+<a class="skip-link" href="#main-content">Skip to content</a>
 
 <header class="site-header">
   <div class="container navbar">
-    <a href="index.html" class="logo"><img src="../images/logo.png" alt="Yugan Real Estate"></a>
-    <nav class="nav-links">
+    <a href="index.html" class="logo"><img src="../images/logo.png" alt="Yugan Real Estate home"></a>
+    <nav class="nav-links" id="primary-navigation" aria-label="Main navigation">
       <a href="index.html" class="active">Home</a>
       <a href="about.html">About Us</a>
       <div class="dropdown">
@@ -29,62 +30,134 @@
       <a href="rera.html">RERA</a>
       <a href="contact.html">Contact Us</a>
     </nav>
-    <a class="phone" href="tel:+919866686197"><span><i data-lucide="phone" aria-hidden="true"></i></span> +91 9866686197</a>
-    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <a class="phone" href="tel:+919866686197"><i data-lucide="phone" aria-hidden="true"></i> +91 98666 86197</a>
+    <button class="menu-btn" type="button" aria-label="Open menu" aria-controls="primary-navigation" aria-expanded="false">☰</button>
   </div>
 </header>
 
+<main id="main-content">
+  <section class="home-hero">
+    <img class="hero-img" src="../images/services-hero.jpg" alt="">
+    <div class="container home-content">
+      <div class="eyebrow">Yugan Real Estate · Amaravati</div>
+      <h1>Find your place.<br><em>Make it yours.</em></h1>
+      <p>Thoughtful property guidance, clear legal insight and personal support for every step of your real estate journey.</p>
+      <div class="home-actions">
+        <a class="btn gold" href="contact.html">Start a conversation <span aria-hidden="true">↗</span></a>
+        <a class="btn btn-whatsapp" href="https://wa.me/919866686197?text=Hello%20Yugan%20Real%20Estate%2C%20I%27m%20interested%20in%20your%20property%20services." target="_blank" rel="noopener noreferrer"><i data-lucide="message-circle" aria-hidden="true"></i> WhatsApp Us</a>
+        <a class="btn btn-outline" href="services.html">Discover our services</a>
+      </div>
+    </div>
+    <div class="hero-note">Rooted in Amaravati · Here for your next chapter</div>
+  </section>
 
-<section class="home-hero">
-  <img class="hero-img" src="../images/services-hero.jpg" alt="Modern real estate development">
-  <div class="container home-content">
-    <div class="eyebrow">Yugan Real Estate</div>
-    <h1>Your Trusted Real Estate Partner</h1>
-    <p>Find the right property with transparent guidance, legal support and a professional process from search to registration.</p>
-    <div class="home-actions"><a class="btn gold" href="services.html">Explore Services →</a><a class="btn" href="contact.html">Contact Us</a></div>
+  <div class="stats">
+    <div class="container stats-grid">
+      <div class="stat"><div class="icon"><i data-lucide="handshake" aria-hidden="true"></i></div><h3>Personal guidance</h3><p>Advice that starts with you</p></div>
+      <div class="stat"><div class="icon"><i data-lucide="house" aria-hidden="true"></i></div><h3>Property solutions</h3><p>Residential and commercial</p></div>
+      <div class="stat"><div class="icon"><i data-lucide="file-check-2" aria-hidden="true"></i></div><h3>Legal insight</h3><p>Clarity at every milestone</p></div>
+      <div class="stat"><div class="icon"><i data-lucide="shield-check" aria-hidden="true"></i></div><h3>Transparent process</h3><p>Clear from the beginning</p></div>
+    </div>
   </div>
-</section>
-<div class="container stats"><div class="stats-grid">
-  <div class="stat"><div class="icon"><i data-lucide="handshake" aria-hidden="true"></i></div><h3>Trusted Guidance</h3><p>Professional support</p></div>
-  <div class="stat"><div class="icon"><i data-lucide="house" aria-hidden="true"></i></div><h3>Property Solutions</h3><p>Residential & commercial</p></div>
-  <div class="stat"><div class="icon"><i data-lucide="badge-check" aria-hidden="true"></i></div><h3>Legal Support</h3><p>Document-focused guidance</p></div>
-  <div class="stat"><div class="icon"><i data-lucide="shield-check" aria-hidden="true"></i></div><h3>Transparent Process</h3><p>Clear communication</p></div>
-</div></div>
-<section class="section"><div class="container">
-  <h2 class="section-title">Comprehensive Real Estate Solutions</h2>
-  <p class="section-subtitle">From property selection to documentation and registration, we help simplify the process.</p>
-  <div class="service-grid">
-    <a class="card service-card" href="property-mediation.html"><div class="service-icon"><i data-lucide="handshake" aria-hidden="true"></i></div><h3>Property Mediation</h3><p>Helping you find the right property with the right value and negotiation support.</p></a>
-    <a class="card service-card" href="legal-due-diligence.html"><div class="service-icon"><i data-lucide="file-text" aria-hidden="true"></i></div><h3>Legal Due Diligence</h3><p>Verify titles, ownership, encumbrances and key property documents before you invest.</p></a>
-    <a class="card service-card" href="rera.html"><div class="service-icon"><i data-lucide="house" aria-hidden="true"></i></div><h3>RERA Services</h3><p>Guidance around project registration, compliance and customer rights.</p></a>
-    <a class="card service-card" href="registration-assistance.html"><div class="service-icon"><i data-lucide="file-pen-line" aria-hidden="true"></i></div><h3>Registration Assistance</h3><p>Support with sale deed, agreements, power of attorney and land records.</p></a>
-    <a class="card service-card" id="bank-loans" href="bank-loans.html"><div class="service-icon"><i data-lucide="landmark" aria-hidden="true"></i></div><h3>Bank Loan Facilities</h3><p>Support for home, project and business loans.</p></a>
-    <a class="card service-card" href="labour-material-contracts.html"><div class="service-icon"><i data-lucide="hard-hat" aria-hidden="true"></i></div><h3>Labour and Material Contracts</h3><p>Skilled labour and quality material coordination for your project.</p></a>
-    <a class="card service-card" href="contact.html"><div class="service-icon"><i data-lucide="users-round" aria-hidden="true"></i></div><h3>Client Support</h3><p>Personalized assistance designed around your property requirements.</p></a>
-  </div>
-</div></section>
 
+  <section class="section">
+    <div class="container home-intro">
+      <div>
+        <div class="eyebrow">A better way forward</div>
+        <h2 class="section-title">Real estate, with the right people by your side.</h2>
+      </div>
+      <div class="home-intro-copy">
+        <p>Property decisions deserve more than a listing. We bring property mediation, legal due diligence and transaction support together, so you can move ahead with greater clarity and confidence.</p>
+        <a class="text-link" href="about.html">Get to know Yugan <span aria-hidden="true">→</span></a>
+        <div class="home-intro-aside">Local knowledge · Thoughtful advice · End-to-end support</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section services-home">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">Considered expertise</div>
+          <h2 class="section-title">A complete property journey.</h2>
+        </div>
+        <p class="section-subtitle">From your first conversation to the final paperwork, practical support for the decisions that matter.</p>
+      </div>
+      <div class="service-grid">
+        <a class="service-card" href="property-mediation.html"><div class="service-icon"><i data-lucide="handshake" aria-hidden="true"></i></div><h3>Property Mediation</h3><p>Find the right property, negotiate with confidence and move towards a considered decision.</p></a>
+        <a class="service-card" href="legal-due-diligence.html"><div class="service-icon"><i data-lucide="file-search-2" aria-hidden="true"></i></div><h3>Legal Due Diligence</h3><p>Review titles, ownership and key documents before you make your investment.</p></a>
+        <a class="service-card" href="rera.html"><div class="service-icon"><i data-lucide="landmark" aria-hidden="true"></i></div><h3>RERA Guidance</h3><p>Understand project requirements, compliance and the protections available to buyers.</p></a>
+        <a class="service-card" href="registration-assistance.html"><div class="service-icon"><i data-lucide="files" aria-hidden="true"></i></div><h3>Registration Assistance</h3><p>Get considered support with agreements, deeds and property registration.</p></a>
+        <a class="service-card" href="bank-loans.html"><div class="service-icon"><i data-lucide="building-2" aria-hidden="true"></i></div><h3>Bank Loan Facilities</h3><p>Explore financing options with support for documentation and follow-up.</p></a>
+        <a class="service-card" href="labour-material-contracts.html"><div class="service-icon"><i data-lucide="drafting-compass" aria-hidden="true"></i></div><h3>Project Coordination</h3><p>Coordinate skilled labour and quality materials for your next build.</p></a>
+      </div>
+      <p><a class="text-link" href="services.html">Explore all services <span aria-hidden="true">→</span></a></p>
+    </div>
+  </section>
+
+  <section class="section story-section">
+    <div class="container story-grid">
+      <div class="story-image">
+        <img src="../images/home-team-meeting.jpg" alt="Yugan Real Estate representatives meeting a government leader" loading="lazy">
+        <div class="story-image-caption"><span>Yugan Real Estate</span><span>Local roots. Lasting relationships.</span></div>
+      </div>
+      <div class="story-copy">
+        <div class="eyebrow">Relationships that matter</div>
+        <h2 class="section-title">Local understanding. A more connected experience.</h2>
+        <p>Every property journey is different. Our team brings local understanding and hands-on guidance to help you navigate the details, ask the right questions and take your next step with confidence.</p>
+        <a class="text-link" href="about.html">Meet your advisors <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section process">
+    <div class="container">
+      <div class="eyebrow">A clearer path</div>
+      <h2 class="section-title">Good decisions happen one step at a time.</h2>
+      <p class="section-subtitle">A straightforward process keeps you informed and supported from the first conversation through to completion.</p>
+      <div class="process-grid">
+        <div class="process-step"><div class="process-number">01</div><h3>Start with a conversation</h3><p>Tell us what you need, what matters most and where you are in your property journey.</p></div>
+        <div class="process-step"><div class="process-number">02</div><h3>Get considered guidance</h3><p>We help you understand your options, key documents and the next steps involved.</p></div>
+        <div class="process-step"><div class="process-number">03</div><h3>Move forward with clarity</h3><p>Stay supported through negotiations, documentation and registration.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section home-cta">
+    <div class="container home-cta-inner">
+      <div>
+        <div class="eyebrow">Your next chapter starts here</div>
+        <h2 class="section-title">Let’s make your next property move a confident one.</h2>
+      </div>
+      <div class="home-cta-actions">
+        <a class="btn" href="contact.html">Talk to our team <span aria-hidden="true">↗</span></a>
+        <a class="btn btn-whatsapp" href="https://wa.me/919866686197?text=Hello%20Yugan%20Real%20Estate%2C%20I%27m%20interested%20in%20your%20property%20services." target="_blank" rel="noopener noreferrer"><i data-lucide="message-circle" aria-hidden="true"></i> WhatsApp Us</a>
+      </div>
+    </div>
+  </section>
+</main>
 
 <footer class="footer">
   <div class="container footer-top">
     <div>
       <a href="index.html" class="footer-logo"><img src="../images/logo.png" alt="Yugan Real Estate"></a>
-      <p>Trusted real estate guidance with a focus on transparency, legal compliance and client satisfaction.</p>
+      <p>Thoughtful real estate guidance, grounded in transparency, legal clarity and personal service.</p>
     </div>
     <div class="footer-links">
-      <h3>Quick Links</h3>
+      <h3>Explore</h3>
       <a href="index.html">Home</a><a href="about.html">About Us</a><a href="services.html">Services</a><a href="rera.html">RERA</a><a href="contact.html">Contact Us</a>
     </div>
     <div>
-      <h3>Contact</h3>
+      <h3>Get in touch</h3>
       <p><i data-lucide="phone" aria-hidden="true"></i> +91 87905 85548</p>
+      <p><i data-lucide="phone" aria-hidden="true"></i> +91 98666 86197</p>
       <p><i data-lucide="mail" aria-hidden="true"></i> info@yuganrealestate.com</p>
-      <p> Amaravati, Andhra Pradesh, India</p>
+      <p><i data-lucide="map-pin" aria-hidden="true"></i> Amaravati, Andhra Pradesh, India</p>
     </div>
   </div>
   <div class="container footer-bottom">
-    <div>© <span data-year>2026</span> Yugan Real Estate. All Rights Reserved.</div>
-    <div><a href="#">Privacy Policy</a><a href="#">Terms & Conditions</a></div>
+    <div>© <span data-year>2026</span> Yugan Real Estate. All rights reserved.</div>
+    <div><a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a></div>
   </div>
 </footer>
 

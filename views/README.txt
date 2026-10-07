@@ -1,6 +1,8 @@
 # Yugan Real Estate Website
 
-Static responsive website recreated from the client-provided reference screens.
+Responsive real estate consultancy website for Yugan Real Estate in Amaravati.
+The shared design system provides an editorial, premium visual style across the
+home, company, service and contact pages.
 
 ## Pages
 - index.html
@@ -10,6 +12,8 @@ Static responsive website recreated from the client-provided reference screens.
 - legal-due-diligence.html
 - rera.html
 - registration-assistance.html
+- bank-loans.html
+- labour-material-contracts.html
 - contact.html
 
 ## Run

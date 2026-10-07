@@ -12,7 +12,7 @@
 <header class="site-header">
   <div class="container navbar">
     <a href="index.html" class="logo"><img src="../images/logo.png" alt="Yugan Real Estate"></a>
-    <nav class="nav-links">
+    <nav class="nav-links" id="primary-navigation" aria-label="Main navigation">
       <a href="index.html" class="">Home</a>
       <a href="about.html" class="">About Us</a>
       <div class="dropdown">
@@ -30,7 +30,7 @@
       <a href="contact.html" class="">Contact Us</a>
     </nav>
     <a class="phone" href="tel:+919866686197"><span><i data-lucide="phone" aria-hidden="true"></i></span> +91 98666 86197</a>
-    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <button class="menu-btn" type="button" aria-label="Open menu" aria-controls="primary-navigation" aria-expanded="false">☰</button>
   </div>
 </header>
 
@@ -53,6 +53,7 @@
     <div>
       <h3>Contact</h3>
       <p><i data-lucide="phone" aria-hidden="true"></i> +91 87905 85548</p>
+      <p><i data-lucide="phone" aria-hidden="true"></i> +91 98666 86197</p>
       <p><i data-lucide="mail" aria-hidden="true"></i> info@yuganrealestate.com</p>
       <p><i data-lucide="map-pin" aria-hidden="true"></i> Amaravati, Andhra Pradesh, India</p>
     </div>

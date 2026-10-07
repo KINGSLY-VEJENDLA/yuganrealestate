@@ -10,13 +10,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const menuBtn = document.querySelector('.menu-btn');
   const nav = document.querySelector('.nav-links');
   if(menuBtn && nav){
-    menuBtn.addEventListener('click', () => nav.classList.toggle('open'));
+    menuBtn.addEventListener('click', () => {
+      const isOpen = nav.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', String(isOpen));
+      menuBtn.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+    });
   }
 
   document.querySelectorAll('.nav-links a').forEach(a => {
     a.addEventListener('click', () => {
       if(window.innerWidth <= 850 && !a.parentElement.classList.contains('dropdown')){
         nav?.classList.remove('open');
+        menuBtn?.setAttribute('aria-expanded', 'false');
+        menuBtn?.setAttribute('aria-label', 'Open menu');
       }
     });
   });
@@ -28,6 +34,15 @@ document.addEventListener('DOMContentLoaded', () => {
         a.parentElement.classList.toggle('open');
       }
     });
+  });
+
+  document.addEventListener('keydown', e => {
+    if(e.key === 'Escape' && nav?.classList.contains('open')){
+      nav.classList.remove('open');
+      menuBtn?.setAttribute('aria-expanded', 'false');
+      menuBtn?.setAttribute('aria-label', 'Open menu');
+      menuBtn?.focus();
+    }
   });
 
   document.querySelectorAll('form[data-contact-form]').forEach(form => {
